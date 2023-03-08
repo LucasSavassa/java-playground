@@ -25,6 +25,7 @@ public class CadastroAluno {
             System.out.println(String.format("Aluno %s", students.indexOf(student)));
             System.out.println(String.format("Nome: %s", student.getName()));
             System.out.println(String.format("Ra: %s", student.getRa()));
+            System.out.println("---");
         }
     }
 }
