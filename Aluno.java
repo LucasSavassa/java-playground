@@ -36,10 +36,14 @@ public class Aluno {
         alunos.add(aluno2);
         alunos.add(aluno3);
 
+        System.out.println();
         System.out.println("Unsorted list");
+        System.out.println();
         alunos.print();
         
+        System.out.println();
         System.out.println("Sorted list");
+        System.out.println();
         alunos.sort();
         alunos.print();
     }
